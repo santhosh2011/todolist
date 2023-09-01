@@ -1,4 +1,5 @@
 .idea/
 db.sqlite3
 static/
+venv/
 **/__pycache__

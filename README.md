@@ -35,6 +35,9 @@ To set up the server and get the application running, run the following command:
 python setup_server.py 
 ```
 
+Login into Django admin before accessing the docs, This measure ensures that only 
+authorized users can access sensitive API endpoints.
+
 Link to [Swagger](http://127.0.0.1:8000/swagger/) to visualise and test api's
 
 Link to [API Documentation](http://127.0.0.1:8000/redoc/)
