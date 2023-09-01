@@ -4,7 +4,8 @@ A simple todo application built using Django
 
 ## Prerequisites
 
-Before running this application, make sure you have the following prerequisites installed on your system:
+Before running this application, make sure you have the following prerequisites
+installed on your system:
 
 - Python (3.6 or higher)
 - Pip (Python package manager)
@@ -27,9 +28,13 @@ Follow these steps to set up the project:
     ```
 
 ## Setup Server
+
 To set up the server and get the application running, run the following command:
+
 ```bash
 python setup_server.py 
 ```
 
+Link to [Swagger](http://127.0.0.1:8000/swagger/) to visualise and test api's
 
+Link to [API Documentation](http://127.0.0.1:8000/redoc/)
