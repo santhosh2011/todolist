@@ -19,7 +19,7 @@ def main():
     create_superuser = input("Create a superuser? (yes/no): ").strip().lower()
     if create_superuser == "yes":
         execute_from_command_line(["manage.py", "createsuperuser"])
-
+    execute_from_command_line(["manage.py", "collectstatic"])
     # Start the Django development server
     execute_from_command_line(["manage.py", "runserver"])
 
