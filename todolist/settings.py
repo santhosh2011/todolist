@@ -123,13 +123,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': {
-        'Token': {
-            'type': 'apiKey',
-            'name': 'Authorization',
-            'in': 'header',
-        },
+        # 'Token': {
+        #     'type': 'apiKey',
+        #     'name': 'Authorization',
+        #     'in': 'header',
+        # },
+        'basic': {
+            'type': 'basic'
+        }
     },
-    'USE_SESSION_AUTH': False,
-    # Set to True if you want to use session-based authentication
-    'JSON_EDITOR': True,
 }
